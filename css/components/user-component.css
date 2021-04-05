@@ -1,6 +1,11 @@
 .user-component {
   justify-content: space-between;
   margin-bottom: 10px;
+  border-radius: 30px;
+  transition: background-color 0.5s ease;
+}
+.user-component:hover {
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 .user-component,
@@ -41,6 +46,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  padding-right: 10px; /* 2> 1> 이런거 간격입니다. */
 }
 
 .user-component__time {
