@@ -19,7 +19,6 @@
 }
 .nav__notification {
   display: flex;
-  position: absolute;
   justify-content: center;
   align-items: center;
   color: white;
@@ -28,6 +27,7 @@
   width: 27px;
   height: 27px;
   border-radius: 50%;
+  position: absolute;
   left: 15px;
   bottom: 15px;
 }
@@ -36,5 +36,11 @@
   width: 7px;
   height: 7px;
   left: 35px;
+  bottom: 25px;
+}
+.ntf-sm-cog {
+  width: 7px;
+  height: 7px;
+  left: 25px;
   bottom: 25px;
 }
