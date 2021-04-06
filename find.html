@@ -8,11 +8,12 @@
     <title>Find - Cocoa Talk</title>
     <style>
       body{
-        height: 130vh;
+        height: 125vh;
       }
     </style>
   </head>
   <body>
+    <div class="find__body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -32,7 +33,7 @@
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg "></i></span>
             <span class="screen-header__span">
-                <i class="fas fa-cog fa-lg"></i>
+              <a class="nav__link" href="#"><i class="fas fa-cog fa-lg"></i></a>
                 <div class="nav__notification ntf-sm-cog"></div>
             </span>
         </div>
@@ -147,6 +148,11 @@
       </li>
   </ul>
 </nav>
+</div>
+<div id="no-mobile">
+  <span>Your screen is too big!</span>
+</div>
+
   <script
     src="https://kit.fontawesome.com/c622222fba.js"
     crossorigin="anonymous"

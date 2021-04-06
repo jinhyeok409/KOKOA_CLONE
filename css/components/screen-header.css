@@ -3,7 +3,6 @@
   justify-content: space-between;
   padding: var(--horizontal-space);
   align-items: center;
-  margin: 15px 0px;
 }
 
 .screen-header__title {
@@ -17,4 +16,36 @@
 
 .screen-header__span {
   position: relative;
+}
+
+@keyframes rotate-cog {
+  0% {
+    tranform: none;
+  }
+  50% {
+    transform: rotateZ(360deg);
+  }
+  100 {
+    tranform: rotateZ(0deg);
+  }
+}
+
+@keyframes rotate-search {
+  0% {
+    tranform: none;
+  }
+  50% {
+    transform: rotateY(360deg);
+  }
+  100 {
+    tranform: rotateY(0deg);
+  }
+}
+
+.screen-header__icons .fa-cog {
+  animation: rotate-cog 2.5s ease-in-out infinite;
+}
+
+.screen-header__icons .fa-search {
+  animation: rotate-search 3s ease-out infinite;
 }

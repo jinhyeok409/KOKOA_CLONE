@@ -1,0 +1,38 @@
+.alt-header {
+  padding: var(--horizontal-space);
+  margin-bottom: 10px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+.alt-header-chatting {
+  padding: var(--horizontal-space);
+  margin-bottom: 10px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  background-color: #d5e5f4;
+  padding: 10px;
+}
+
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+
+.alt-header__column:last-child {
+  margin-left: auto;
+}
+
+.alt-header__title {
+  font-size: 26px;
+  font-weight: 600;
+}

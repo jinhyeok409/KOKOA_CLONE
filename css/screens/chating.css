@@ -1,0 +1,129 @@
+.alt-header__column .fa-bars {
+  margin-left: 15px;
+}
+
+.alt-header__column div i:first-child {
+  margin-left: -45px;
+}
+
+.chating-body {
+  margin-top: 20px;
+  background-color: #d5e5f4;
+}
+
+.chating-screen {
+  padding-top: 53px;
+}
+
+.chat-timestamps {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 5px 0px;
+  margin: 0px 170px;
+  border-radius: 30px;
+  font-weight: 600;
+  background-color: #d5e5f4;
+  filter: brightness(80%);
+}
+
+@keyframes appear-chat {
+  0% {
+    opacity: 0%;
+    transform: translateX();
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+.message-row {
+  margin: 30px 0px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  animation: appear-chat 1s ease;
+}
+
+.message-me {
+  flex-direction: row-reverse;
+}
+
+.message__author {
+  display: flex;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.message__author-me {
+  justify-content: flex-end;
+}
+
+.message__bubble {
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 10px;
+}
+
+.message__time {
+  font-size: 13px;
+  opacity: 0.8;
+  margin: 0px 5px;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__info-me {
+  flex-direction: row-reverse;
+}
+
+.message-row__content-me {
+  margin-right: 20px;
+}
+
+.chat-bar {
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  padding: 10px 0px;
+}
+
+.chat-bar form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.chat-bar form input {
+  width: 100%;
+  height: 45px;
+  font-size: 20px;
+  margin: 0px 10px;
+  border-radius: 30px;
+  border: none;
+  padding: 0px 15px;
+  border: var(--main-border);
+}
+.chat-bar form button {
+  height: 45px;
+  width: 55px;
+  margin-right: 25px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--yellow);
+}
+
+.chat-bar form button:active {
+  filter: brightness(80%);
+}
+
+.chat-bar form button:focus,
+.chat-bar form input:focus {
+  outline: none;
+}

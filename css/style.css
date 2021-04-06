@@ -9,12 +9,16 @@
 @import url("components/user-component.css");
 @import url("components/badge.css");
 @import url("components/icon-row.css");
+@import url("components/alt-header.css");
+@import url("components/no-mobile.css");
 
 /*screens*/
 @import url("screens/login.css");
 @import url("screens/friends.css");
 @import url("screens/find.css");
 @import url("screens/more.css");
+@import url("screens/settings.css");
+@import url("screens/chating.css");
 
 .main-screen {
   padding: 0px var(--horizontal-space);

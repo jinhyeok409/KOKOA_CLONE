@@ -9,3 +9,19 @@
   height: 27px;
   border-radius: 50%;
 }
+
+@keyframes rotate-badge {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.user-component__time + .badge {
+  animation: rotate-badge 2s ease-in-out infinite;
+}
